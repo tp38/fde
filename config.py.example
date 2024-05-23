@@ -1,0 +1,4 @@
+SERVER="my_prefered_server"
+S_PATH="path to store report files on server"
+LOGIN="my_login"
+PASSWORD="my_secret_password"
