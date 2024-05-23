@@ -38,9 +38,9 @@ There's two files to configure :
 1. Activate your virtual env :
     > $ source ~/fde/bin/activate
 2. start the DayResult python module :
-    > (fde)$ python DayResult.py
-3. answer to the questions like this example :
-    (FdE) th@6po:~/Code/Python/FdE/prod$ python DayResult.py   
+    > (fde) $ python DayResult.py
+3. answer to the questions like this example :   
+    (FdE) $ python DayResult.py   
     Entrer la date concernée : **23/05/2024**   
     ( 2024-05-23 :    0 / 0.0 (0.0) [] )   
     Voulez-vous modifier [m] / sauvegarder [s] / supprimer [d] cet enregistrement ou quitter [q] ?    
@@ -53,7 +53,7 @@ There's two files to configure :
     Voulez-vous modifier [m] / sauvegarder [s] / supprimer [d] cet enregistrement ou quitter [q] ? **s**
     ( 2024-05-23 :  153 / 8.0 (1.0) [il ne fait pas beau] )
     Voulez-vous modifier [m] / sauvegarder [s] / supprimer [d] cet enregistrement ou quitter [q] ? **q**
-    (FdE) th@6po:~/Code/Python/FdE/prod$ 
+    (FdE) $ 
 
 
 ### display month result
@@ -61,12 +61,12 @@ There's two files to configure :
 1. Activate your virtual env :
     > $ source ~/fde/bin/activate
 2. start the MonthResult python module :
-    > (fde)$ python MonthResult.py [date=dd/mm/yyyy]
+    > (fde) $ python MonthResult.py [date=dd/mm/yyyy]
 
-    (FdE) th@6po:~/Code/Python/FdE/prod$ python MonthResult.py date=23/05/2024
+    (FdE) $ python MonthResult.py date=23/05/2024
     2024-05 : 153€ / 8.0h (1.0) [prime : -3268.15]
         ( 2024-05-23 :  153 / 8.0 (1.0) = 19.1€/h [il ne fait pas beau] )
-    (FdE) th@6po:~/Code/Python/FdE/prod$
+    (FdE) $
 
 ### send report to web server
 
@@ -74,5 +74,5 @@ for this module, web server (SERVER) must be accessible and LOGIN/PASSWORD accou
 1. Activate your virtual env :
     > $ source ~/fde/bin/activate
 2. start the Report python module :
-    > (fde)$ python Report.py
+    > (fde) $ python Report.py
 
