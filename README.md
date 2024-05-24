@@ -1,6 +1,7 @@
-# FDE
+# FDE in Python
 
 The goal of the application is to save Nat's activity for FDE. 
+It was written in Python.
 
 ## Installation
 
