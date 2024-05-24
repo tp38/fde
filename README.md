@@ -41,21 +41,24 @@ There's two files to configure :
 2. start the DayResult python module :
     > (fde) $ python DayResult.py
 3. answer to the questions like this example :   
+```
     (FdE) $ python DayResult.py   
-    Entrer la date concernée : **23/05/2024**   
+    Entrer la date concernée : 23/05/2024   
     ( 2024-05-23 :    0 / 0.0 (0.0) [] )   
     Voulez-vous modifier [m] / sauvegarder [s] / supprimer [d] cet enregistrement ou quitter [q] ?    
-    **m**   
-        Entrer le chiffre d'affaire (0) : **153**   
-        Entrer le nombre d'heure (0.0) : **8**    
-        Entrer le nombre d'heure sup (0.0) : **1**    
-        Entrer un commentaire éventuel (None): **il ne fait pas beau**   
-    ( 2024-05-23 :  153 / 8.0 (1.0) [il ne fait pas beau] )
-    Voulez-vous modifier [m] / sauvegarder [s] / supprimer [d] cet enregistrement ou quitter [q] ? **s**
-    ( 2024-05-23 :  153 / 8.0 (1.0) [il ne fait pas beau] )
-    Voulez-vous modifier [m] / sauvegarder [s] / supprimer [d] cet enregistrement ou quitter [q] ? **q**
+    m 
+        Entrer le chiffre d'affaire (0) : 153
+        Entrer le nombre d'heure (0.0) : 8    
+        Entrer le nombre d'heure sup (0.0) : 1    
+        Entrer un commentaire éventuel (None): il ne fait pas beau
+    ( 2024-05-23 :  153 / 8.0 (1.0) [il ne fait pas beau] )   
+    Voulez-vous modifier [m] / sauvegarder [s] / supprimer [d] cet enregistrement ou quitter [q] ?   
+    s
+    ( 2024-05-23 :  153 / 8.0 (1.0) [il ne fait pas beau] )   
+    Voulez-vous modifier [m] / sauvegarder [s] / supprimer [d] cet enregistrement ou quitter [q] ?  
+    q    
     (FdE) $ 
-
+```
 
 ### display month result
 
@@ -64,10 +67,12 @@ There's two files to configure :
 2. start the MonthResult python module :
     > (fde) $ python MonthResult.py [date=dd/mm/yyyy]
 
+ ```
     (FdE) $ python MonthResult.py date=23/05/2024
     2024-05 : 153€ / 8.0h (1.0) [prime : -3268.15]
         ( 2024-05-23 :  153 / 8.0 (1.0) = 19.1€/h [il ne fait pas beau] )
     (FdE) $
+```
 
 ### send report to web server
 
